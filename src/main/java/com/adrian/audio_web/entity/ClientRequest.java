@@ -1,5 +1,7 @@
 package com.adrian.audio_web.entity;
 
+import com.adrian.audio_web.enums.RequestStatus;
+import com.adrian.audio_web.enums.ServiceType;
 import jakarta.persistence.*;
 import java.time.OffsetDateTime;
 
