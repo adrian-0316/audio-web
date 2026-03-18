@@ -1,24 +1,37 @@
-<!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Services</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
 </head>
+
 <body>
 
-<h1>Services</h1>
+<div class="navbar">
+    <a th:href="@{/}">Home</a>
+    <a th:href="@{/services}">Services</a>
+    <a th:href="@{/contact}">Contact</a>
+</div>
 
-<h2>Recording</h2>
-<p>Professional studio recording for vocals and instruments.</p>
+<div class="container">
 
-<h2>Mixing</h2>
-<p>Balanced, dynamic and clean mix ready for mastering.</p>
+    <h1>Services</h1>
 
-<h2>Mastering</h2>
-<p>Final polish to make your track competitive on all platforms.</p>
+    <div class="service-card">
+        <h2>Recording</h2>
+        <p>Professional recording for vocals and instruments.</p>
+    </div>
 
-<a th:href="@{/contact}">Request a Service</a>
-<br>
-<a th:href="@{/}">Back to Home</a>
+    <div class="service-card">
+        <h2>Mixing</h2>
+        <p>Clean, balanced and powerful mix.</p>
+    </div>
+
+    <div class="service-card">
+        <h2>Mastering</h2>
+        <p>Final polish for streaming platforms.</p>
+    </div>
+
+    <a class="button" th:href="@{/contact}">Request a Service</a>
+
+</div>
 
 </body>
-</html>
