@@ -60,3 +60,23 @@ p {
     margin-top: 20px;
     border-radius: 8px;
 }
+
+.audio-section {
+    margin-top: 60px;
+}
+
+.audio-player {
+    background: #18181d;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.audio-player p {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+audio {
+    width: 100%;
+}
